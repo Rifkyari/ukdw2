@@ -1,0 +1,318 @@
+body {
+	margin: auto;
+	padding: 0;
+	text-decoration: none;
+}
+
+/*misc*/
+
+.nomarg{
+	margin: 0 0 0 0 !important;
+}
+
+.paddingtop {
+	padding-top: 2%;
+}
+
+.marginbot {
+	margin-bottom: 2%;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.shadow {
+	box-shadow: 0 2px 10px #000;
+}
+
+.relative {
+	position: relative;
+	z-index: 1;
+}
+
+.btn {
+	padding: 2% 5%;
+	color: #000;
+	font-family: mohave;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.btn-caption{
+	margin: auto;
+	text-align: center;
+	padding: 1% 2%;
+	color: #fff;
+	border: 2px solid #fff;
+	font-family: mohave;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.btn-caption:hover{
+	padding: 1% 2%;
+	color: #000;
+	background-color: #fff;
+}
+
+.green {
+	background-color: #009933 ;
+}
+
+.green:hover {
+	background-color: #00822b ;
+	color: #fff;
+}
+
+.white {
+	color: #fff !important;
+}
+
+/*main*/
+
+header {
+	width: 100%;
+	height: 100px;
+	padding-top: 25px;
+	position: relative;
+	background: linear-gradient(
+		rgba(0 ,0 ,0 ,0.8),	
+		rgba(0 ,0 ,0 ,0));
+}
+
+
+.header-solid {
+	background: linear-gradient(
+		rgba(50 ,50 ,50 ,1),	
+		rgba(50 ,50 ,50 ,1)) !important;
+}
+header ul {
+	list-style-type: none;
+	float: right;
+}
+
+header ul li {
+	line-height: 60px;
+	display: inline;
+}
+
+header ul li a {
+	font-family: mohave;
+	padding: 5px 10px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+header ul li a:hover {
+	border-bottom: 2px solid #fff;
+} 
+
+.head-logo h2 {
+	color: #fff;
+	padding-top: 20px;
+	font-size: 0.75em;
+	font-family: mohave;
+	letter-spacing:5px;
+	margin: 0;
+}
+
+.head-logo h1 {
+	color: #fff;
+	font-size: 1.85em;
+	font-family: mohave;
+		letter-spacing:1.75px;
+	margin: 0;
+}
+
+.flight {
+	width: 100%;
+	height: 350px;
+	background-color: #f9f9f9;
+	z-index: 2;
+	margin-top: -5% !important;
+	position: relative;
+}
+
+.content {
+	width: 100%;
+	height: 600px;
+	background-color: #f9f9f9;
+	z-index: 2;
+	position: relative;
+	margin-top: -1% !important;
+}
+
+.jogja {
+	padding-top: 10%;
+	margin: 0;
+	color: #E62129;
+	font-family:jogjakartype; 
+	font-size: 6em;
+	border-bottom: 3px solid #E62129 ;
+	border-bottom-left-radius: 3px; 
+	border-bottom-right-radius: 3px; 
+}
+
+.flight-desc {
+	padding: 5% 0%;
+	margin: 0;
+	font-family:mohave; 
+}
+
+.caption {
+	font-size: 4em;
+	font-family: pacifico;
+	margin-top: 25%;
+	color: #fff;
+}
+
+.caption-paralax {
+	font-size: 3em;
+	font-family: pacifico;
+	margin-top: 12%;
+	color: #fff;
+}
+
+.title {
+	margin: 0;
+	font-size: 2em;
+	font-family: mohave;
+	color: #E62129 ;
+	line-height: 60px;
+	padding-bottom: 10px;
+}
+
+.search {
+	width: 60%;
+	height: 40px;
+	padding:  1% 2%;
+	border: 2px solid #E62129 ;
+	border-radius:5px; 
+	color: #fff  ;
+	background-color: rgba(47,47,47,0.3);
+	margin-top: -80%;
+	transition: 0.2s;
+}
+
+.search:focus{
+	color: #E62129;
+	background-color: #fff;
+}
+
+.search-btn {
+	width: 20%;
+	height: 40px;
+	padding: 1% 2%;
+	border: none;
+	border-radius:5px; 
+	background-color:#E62129 ; 
+	color: #fff ;
+	margin-top: -80%;
+	margin-left: -20px;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.search-btn:hover {
+	background-color:#b4141d ;
+}
+
+.map-jogja {
+	padding-top:10%;	
+}
+
+.visi ol {
+	list-style-type: none;
+}
+
+.visi ol li{
+	text-align: justify;
+	color: #fff;
+	font-family: Roboto;
+	padding-bottom: 5px;
+}
+
+.misi ol li{
+	text-align: justify;
+	color: #fff;
+	font-family: Roboto;
+	padding-bottom: 2px;
+}
+
+.visi h2 {
+	margin: 0;
+	font-family: mohave;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+.misi h2 {
+	margin: 0;
+	font-family: mohave;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+footer {
+	width: 100%;
+	height: 300px;
+	padding: 30px 0 20px 0;
+	background-color: #595959;
+	bottom: 0;
+	position: relative;
+}
+
+.foot {
+	height: 50px;
+	background-color: #2a2a2a;
+	position: relative;
+	bottom: 0;
+}
+
+.icon {
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.desc {
+	width: 80%;
+	line-height: 50px;
+	color: #fff;
+	float: left;
+	font-family: mohave;
+}
+
+.copy {
+	width: 100%;
+	line-height: 50px;
+	color: #fff;
+	float: right;
+	font-family: mohave;
+}
+
+table {
+	width: 100%;
+	font-family: roboto;
+}
+
+thead {
+	background-color: #E62129 ;
+	height: 40px;
+	color: #fff !important;
+}
+
+td {
+	padding-left: 2%;
+}
